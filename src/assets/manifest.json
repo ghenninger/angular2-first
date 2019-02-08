@@ -1,0 +1,19 @@
+{
+    "name": "Avsnitt RaM Android",
+    "icons": [
+      {
+        "src": "icons/android/mipmap-xxxhdpi/ic_launcher192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "icons/android/playstore-icon512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "theme_color": "#9E9E9E",
+    "background_color": "#9E9E9E",
+    "start_url": "../index.html",
+    "display": "standalone"
+  }

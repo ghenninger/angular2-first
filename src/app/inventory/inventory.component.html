@@ -1,0 +1,5 @@
+<!-- Genom loopen upprepas li-element så många gånger det finns objekt med name-attributet jag frågar efter -->
+<!-- Jag fick lägga till en "elvis-operator" på min data som jag hämtar in (inventory). Källa: https://bit.ly/2P7N3BT -->
+<ul>
+  <li *ngFor="let item of inventory?.results">{{ item.episode }} : {{ item.name }}</li>
+</ul>
